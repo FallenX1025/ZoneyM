@@ -1,18 +1,17 @@
 #
-# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
 # This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
-#
 
 import random
 
 from pyrogram.types import InlineKeyboardButton
 
-selections = [
+selection = [
     "▁▄▂▇▄▅▄▅▃",
     "▁▃▇▂▅▇▄▅▃",
     "▃▁▇▂▅▃▄▃▅",
@@ -28,12 +27,37 @@ selections = [
     "▃▅▂▅▃▇▄▅▃",
 ]
 
+def time_to_sec(time: str):
+    x = time.split(":")
 
-## After Edits with Timer Bar
+    if len(x) == 2:
+        min = int(x[0])
+        sec = int(x[1])
 
+        total_sec = (min*60) + sec
+    elif len(x) == 3:
+        hour = int(x[0])
+        min = int(x[1])
+        sec = int(x[2])
+
+        total_sec = (hour*60*60) + (min*60) + sec
+
+    return total_sec
 
 def stream_markup_timer(_, videoid, chat_id, played, dur):
-    bar = random.choice(selections)
+    played_sec = time_to_sec(played)
+    total_sec = time_to_sec(dur)
+
+    x, y = str(round(played_sec/total_sec,1)).split(".")
+    pos = int(y)
+
+    line = "—"
+    circle = "❁"
+
+    bar = line*(pos-1)
+    bar += circle
+    bar += line*(10-len(bar))
+
     buttons = [
         [
             InlineKeyboardButton(
@@ -47,12 +71,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
+                text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
         ],
         [
-            InlineKeyboardButton(
+           InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
         ],
@@ -61,7 +84,21 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
 
 def telegram_markup_timer(_, chat_id, played, dur):
-    bar = random.choice(selections)
+    played_sec = time_to_sec(played)
+    total_sec = time_to_sec(dur)
+
+    x, y = str(round(played_sec/total_sec,1)).split(".")
+    pos = int(y)
+
+    line = "—"
+    circle = "❁"
+
+    bar = line*(pos-1)
+    bar += circle
+    bar += line*(10-len(bar))
+
+def telegram_markup_timer(_, chat_id, played, dur):
+    bar = random.choice(selection)
     buttons = [
         [
             InlineKeyboardButton(
@@ -98,7 +135,7 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(
+             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
         ],
