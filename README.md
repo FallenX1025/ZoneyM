@@ -78,6 +78,6 @@ thank you❤️ [Zoney Sir](https://t.me/itszoney)
 
 - Contact options listed on [this GitHub profile](https://github.com/sakil000)
 - [TELEGRAM CHANNEL](https://t.me/ArchBots)
-- [SUPPORT GROUP](https://t.me/ArchBots)
+- [SUPPORT GROUP](https://t.me/ARCH_SUPPORTS)
 
 
