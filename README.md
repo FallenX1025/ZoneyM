@@ -12,10 +12,15 @@
 
 🤞generate string season 👇
 [👉CLICK HERE👈](https://t.me/StringFatherBot)
+
 ..guide
+
 1.Start bot 
+
 2.ɢᴇɴᴇʀᴀᴛᴏʀ sᴇssɪᴏɴ
+
 3.PYROGRAM V2
+
 
 
 ## 🖇 VPS Deployment
