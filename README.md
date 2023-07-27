@@ -1,4 +1,4 @@
-<img src="https://telegra.ph/file/94e013900d86ff5899439.jpg" align="right" width="200" height="200"/>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Chiranjibkoch/YukkiV)
 
 # Arch Bots <img src="https://img.shields.io/github/v/release/sakil000/YukkiV2?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
