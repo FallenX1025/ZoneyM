@@ -1,1 +1,1 @@
-worker: python3 -m YukkiMusic
+worker: bash start
