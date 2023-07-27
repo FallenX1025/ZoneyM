@@ -10,21 +10,32 @@
 
 HELP_1 = """✅**<u>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ:</u>**
 **ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ Tᴀɢ Aʟʟ:**
-Only for admins
+**Only for admins**
+
 ❍ /tagall or @all '(reply to message or add another message) To mention all members in your group, without exception.
 ❍ /cancel to stop ongoing tagg
 sᴘᴇᴄɪᴀʟ ᴛᴀɢɢᴇʀ
 🌺 ᴛʏᴘᴇ ᴀɴʏ ᴛᴇxᴛ ᴀғᴛᴇʀ ᴛʜᴇ ᴄᴏʀʀᴇsᴘᴏɴᴅɪɴɢ ᴄᴏᴍᴍᴀɴᴅ✨
-/allvoice - ᴍᴇɴᴛɪᴏɴ ᴏʀ ᴛᴀɢ ᴜsᴇʀs ᴡɪᴛʜ ᴠᴏɪᴄᴇ ᴍᴀʏʙᴇ sʟᴏᴡ
-/htag  - ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛᴀɢs ɪɴ ʜɪɴᴅɪ
+
+❍ /allvoice - ᴍᴇɴᴛɪᴏɴ ᴏʀ ᴛᴀɢ ᴜsᴇʀs ᴡɪᴛʜ ᴠᴏɪᴄᴇ ᴍᴀʏʙᴇ sʟᴏᴡ
+
+❍ /hrtag - ᴛᴀɢ ɪɴ ʜᴀʀᴀʏᴀᴀɴᴠɪ
+
+❍ /htag  - ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛᴀɢs ɪɴ ʜɪɴᴅɪ
  
-/engtag - ᴘʀᴏᴅᴜᴄᴇ sᴘᴇᴄɪᴀʟ ᴇɴɢʟɪsʜ ᴛᴀɢs.
-/pnbtag  - ᴄʀᴀғᴛ sᴘᴇᴇᴅʏ sᴘᴇᴄɪᴀʟ ᴘᴀɴᴊᴀʙɪ ᴛᴀɢs.
-/assamtag  - ɢᴇɴᴇʀᴀᴛᴇ ǫᴜɪᴄᴋ sᴘᴇᴄɪᴀʟ ᴇɴɢʟɪsʜ ᴛᴀɢs.
-/ttag - tamil tagger
-/stop - ᴄᴇᴀsᴇ ᴛᴀɢɢɪɴɢ.
-/cancel 
+❍ /engtag - ᴘʀᴏᴅᴜᴄᴇ sᴘᴇᴄɪᴀʟ ᴇɴɢʟɪsʜ ᴛᴀɢs.
+
+❍ /pnbtag  - ᴄʀᴀғᴛ sᴘᴇᴇᴅʏ sᴘᴇᴄɪᴀʟ ᴘᴀɴᴊᴀʙɪ ᴛᴀɢs.
+
+❍ /assamtag  - ɢᴇɴᴇʀᴀᴛᴇ ǫᴜɪᴄᴋ sᴘᴇᴄɪᴀʟ ᴇɴɢʟɪsʜ ᴛᴀɢs.
+
+❍ /ttag - tamil ᴛᴀɢɢᴇʀ
+
+❍ /stop - ᴄᴇᴀsᴇ ᴛᴀɢɢɪɴɢ.
+
+❍ /cancel 
 ᴅɪsᴄᴏᴠᴇʀ ᴛʜᴇ ᴇxᴄᴇᴘᴛɪᴏɴᴀʟ ᴄᴀᴘᴀʙɪʟɪᴛɪᴇs ᴏғ ᴛʜᴇsᴇ sᴘᴇᴄɪᴀʟ ᴛᴀɢɢᴇʀs ᴀɴᴅ ᴄᴏᴍᴘᴏsᴇ ᴇxᴛʀᴀᴏʀᴅɪɴᴀʀʏ ᴍᴇssᴀɢᴇs! 🚀.
+
 **c** stands for channel play.
 
 /pause or /cpause - Pause the playing music.
