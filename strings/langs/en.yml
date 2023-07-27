@@ -1,13 +1,3 @@
-#
-# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
 
 # General Strings
@@ -152,7 +142,7 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Processing Query... Please Wait!"
+play_1 : "🔎"
 play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
@@ -256,49 +246,50 @@ UNBAN_BUTTON : "🗑 Unban Assistant"
 L_B_1 : "🚀 Checkout Lyrics Now"
 
 # Start
-S_B_1 : "🗒 Commands"
-S_B_2 : "🔧 Settings"
-S_B_3 : "📨 Support"
-S_B_4 : "📨 Channel"
-S_B_5 : "✚ Add me to your Group"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands Menu."
+S_B_1 : "ᴄᴏᴍᴍᴀɴᴅs"
+S_B_2 : "sᴇᴛᴛɪɴɢs"
+S_B_3 : "Support"
+S_B_4 : "ᴄʜᴀɴɴᴇʟ"
+S_B_5 : "ᴀᴅᴅ ᴍᴇ ᴍᴏɪ ʟᴜᴠ"
+S_B_6 : "ʀepo"
+S_B_7 : "ᴏᴡɴᴇʀ"
+S_B_8 : "ᴍᴜsɪᴄ ᴛᴀɢɢᴇʀ ᴄᴏᴍᴍᴀɴᴅ"
 
 #Help 
-H_B_1 : "Admin Commands"
-H_B_2 : "Play Commands"
-H_B_3 : "Bot Commands"
-H_B_4 : "Extra Commands"
-H_B_5 : "Close Menu"
-H_B_6 : "SudoUser Commands"
+H_B_1 : "ᴛᴀɢɢᴇʀ ᴄᴏᴍᴍᴀɴᴅ"
+H_B_2 : "ᴍᴜsɪᴄ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ"
+H_B_3 : "ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs"
+H_B_4 : "ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs"
+H_B_5 : "ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅs"
+H_B_6 : "ᴄʟᴏsᴇ ᴍᴇɴᴜ"
+H_B_7 : "sᴜᴅᴏᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
-PM_B_2 : "InlineMarkup"
-PM_B_3 : "ChannelPlay"
+PM_B_2 : "ɪɴʟɪɴᴇᴍᴀʀᴋᴜᴘ"
+PM_B_3 : "ᴄʜᴀɴɴᴇʟᴘʟᴀʏ"
 
 #Play
-P_B_1 : "🎵 Play Audio"
+P_B_1 : "🎵 ᴘʟᴀʏ ᴀᴜᴅɪᴏ"
 P_B_2 : "🎥 Play Video"
-P_B_3 : "🏮 Start Live Stream"
-P_B_4 : "🎵 Play Playlist"
+P_B_3 : "🏮 sᴛᴀʀᴛ ʟɪᴠᴇ sᴛʀᴇᴀᴍ"
+P_B_4 : "🎵 ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛ"
 
 #Playlist
-PL_B_1 : "🚀 Play Playlist"
-PL_B_2 : "✚ Playlists"
-PL_B_3 : "✚ CPanel"
-PL_B_4 : "📡 Play Mode"
-PL_B_5 : "🔄 Del Whole Playlist"
-PL_B_6 : "↗️ Delete Playlist"
-PL_B_7 : "❗️ Yes, I'm sure. Delete it"
-PL_B_8 : "🔢 Play Top 10"
-PL_B_9 : "🤖 Play Global Top 10 Tracks"
-PL_B_10 : "🏘 Play Group's Top 10 Tracks"
+PL_B_1 : "🚀ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛ"
+PL_B_2 : "✚ ᴘʟᴀʏʟɪsᴛs"
+PL_B_3 : "✚ ᴄᴘᴀɴᴇʟ"
+PL_B_4 : "📡 ᴘʟᴀʏ ᴍᴏᴅᴇ"
+PL_B_5 : "🔄 ᴅᴇʟ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ"
+PL_B_6 : "↗️ ᴅᴇʟᴇᴛᴇ ᴘʟᴀʏʟɪsᴛ"
+PL_B_7 : "❗️ ʏᴇs, ɪ'ᴍ sᴜʀᴇ. ᴅᴇʟᴇᴛᴇ ɪᴛ"
+PL_B_8 : "🔢 ᴘʟᴀʏ ᴛᴏᴘ 𝟷𝟶"
+PL_B_9 : "🤖 ᴘʟᴀʏ ɢʟᴏʙᴀʟ ᴛᴏᴘ 𝟷𝟶 ᴛʀᴀᴄᴋs"
+PL_B_10 : "🏘 ᴘʟᴀʏ ɢʀᴏᴜᴘ's ᴛᴏᴘ 𝟷𝟶 ᴛʀᴀᴄᴋs"
 PL_B_11 : "👤 Play Personal Top 10 Tracks"
 
 #Settings
-ST_B_1 : "🔊 Aud Quality"
+ST_B_1 : "🔊 ᴀᴜᴅ ǫᴜᴀʟɪᴛʏ"
 ST_B_2 : "🎥 Vid Quality"
 ST_B_3 : "🎩 Auth Users"
 ST_B_4 : "📱 Dashboard"
