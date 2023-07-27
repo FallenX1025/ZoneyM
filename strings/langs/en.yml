@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "*Hey! {},*\n   **ᴛʜɪs ɪs {0}** 🥀\n **ᴀ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ғᴏʀ\n\nᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.**\n\n🌺ᴀ ɢᴏᴏᴅ ǫᴜᴀʟɪᴛʏ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ\n🌺sᴘᴇᴄɪᴀʟ ᴠᴏɪᴄᴇ & ᴛᴇxᴛ ᴜsᴇʀ ᴛᴀɢɢᴇʀ\n\n**ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴀʀᴇ ʟɪsᴛᴇᴅ ɪɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ.**"
+start_2 : " *ʜᴇʏ {},*🌺\nMy name is {0}.\n\nɪ'ᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴍ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.\n\nɪ ᴀᴍ ᴀ sᴘᴇᴄɪᴀʟ ᴀᴜᴛᴏɢᴇɴʀᴀᴛᴇᴅ ᴠᴏɪᴄᴇ ᴜsᴇʀ tager\nsᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛғᴏʀᴍs ʟɪᴋᴇ ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ, ᴀᴘᴘʟᴇᴍᴜsɪᴄ , sᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\nᴛᴏ ᴄʜᴇᴄᴋ ᴍʏ ᴀʙɪʟɪᴛʏ ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ\n\nғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs."
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
@@ -204,8 +204,8 @@ lyrics_3 : "❌ Failed to fetch lyrics😭.\n\n💡**Tried Searching For:** {0}"
 lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam types lyrics search."
 
 #Ping
-ping_1 : "» ᴩɪɴɢɪɴɢ ʙᴀʙʏ..."
-ping_2 : "🏓 ᴩᴏɴɢ : `{0}ᴍs`\n\n<b><u>{1} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>\n\n✨ ᴜᴩᴛɪᴍᴇ : {2}\n❄ ʀᴀᴍ : {3}\n💫 ᴄᴩᴜ : {4}\n🔮 ᴅɪsᴋ : {5}\n☁️ ᴩʏ-ᴛɢᴄᴀʟʟs : `{6}ᴍs`"
+ping_1 : "Pong!!!!"
+ping_2 : "{0} is working good with a ping of `{1}` ms.\n\nBot's uptime is {2} and has used a total of {3} server's storage. Cpu load is about {4} with a consumption of {5} Ram. Py-Tgcalls client is also having a good ping of `{6}` ms."
 
 
 # Song
@@ -256,7 +256,7 @@ S_B_7 : "• ᴏᴡɴᴇʀ •"
 S_B_8 : "• ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs •"
 
 #Help 
-H_B_1 : "🤨 ᴀᴅᴍɪɴ 🤨"
+H_B_1 : "😊 ᴀᴅᴍɪɴ & ᴛᴀɢɢᴇʀ 🙂"
 H_B_2 : "😜 ᴘʟᴀʏ 😜"
 H_B_3 : "🤔 ʙᴏᴛ 🤔"
 H_B_4 : "😴 ᴇxᴛʀᴀ 😴"
