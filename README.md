@@ -1,5 +1,6 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Chiranjibkoch/YukkiV)
-
+## ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Chiranjibkoch/YukkiV"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+ 
 # Arch Bots <img src="https://img.shields.io/github/v/release/sakil000/YukkiV2?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
 [Arohi Music Bot](https://t.me/UMIKO_CHAT_BOT) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
