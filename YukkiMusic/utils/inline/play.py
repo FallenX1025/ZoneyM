@@ -42,8 +42,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     x, y = str(round(played_sec/total_sec,1)).split(".")
     pos = int(y)
 
-    line = "━"
-    circle = "⚪"
+    line = "─"
+    circle = "●"
 
     bar = line*(pos-1)
     bar += circle
@@ -65,19 +65,14 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="☆", callback_data=f"add_playlist {videoid}"
+                text="↻", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="‣‣", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
-            )
+            ), 
         ],
     ]
     return buttons
@@ -101,19 +96,14 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="☆", callback_data=f"add_playlist {videoid}"
+                text="↻", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="‣‣", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
-            )
         ],
     ]
     return buttons
