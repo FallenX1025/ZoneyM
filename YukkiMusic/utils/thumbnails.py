@@ -89,7 +89,7 @@ async def gen_thumb(videoid):
             image2 = background
 
             # Load the video file for the circle overlay
-            circle_video = VideoFileClip("path/to/circle.mp4")  # Replace "path/to/circle.mp4" with the actual path to the video file
+            circle_video = VideoFileClip("assets/circle.mp4")  # Replace "path/to/circle.mp4" with the actual path to the video file
 
             # Get the video duration for the circle overlay
             circle_duration = circle_video.duration
