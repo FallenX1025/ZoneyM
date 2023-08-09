@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "19077475"))
-API_HASH = getenv("API_HASH", "0e257194816e0920c1117c4cc437bf23")
+API_ID = int(getenv("API_ID", "29131399"))
+API_HASH = getenv("API_HASH", "bf43dced8b0dbe587788e3a45d89f1f7")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6072575326:AAFEpH610z77yi9tUB-jxxEWjNupcbOfC4k")
+BOT_TOKEN = getenv("BOT_TOKEN", ""5737304100:AAFIWbH4HXWTvkzmYhMkCI4lbiniNWP79zg)
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Trisha:Trisha@cluster0.tjxibmo.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://zoney:sir@zoney.lwlpxrk.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -40,11 +40,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001923845903"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TRISHA ROBOT")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "AAROHI MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5498943520").split())
+    map(int, getenv("OWNER_ID", "5218610039").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -76,7 +76,7 @@ AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "true")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "60000")
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
