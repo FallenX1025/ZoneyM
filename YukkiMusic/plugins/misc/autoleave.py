@@ -1,15 +1,5 @@
-#
-# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 import asyncio
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import config
 from pyrogram.enums import ChatType
@@ -29,6 +19,7 @@ async def auto_leave():
             for num in assistants:
                 client = await get_client(num)
                 left = 0
+                muted = False
                 try:
                     async for i in client.iter_dialogs():
                         chat_type = i.chat.type
@@ -40,9 +31,9 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001764725348
-                                and chat_id != -1001764725348
-                                and chat_id != -1001764725348
+                                and chat_id != -1001687657146
+                                and chat_id != -1001687657146
+                                and chat_id != -1001687657146
                             ):
                                 if left == 20:
                                     continue
@@ -54,8 +45,21 @@ async def auto_leave():
                                         left += 1
                                     except:
                                         continue
+
+                                if client.get_active_voice_chat(chat_id):
+                                    if client.get_voice_client(chat_id).is_muted():
+                                        muted = True
+
                 except:
                     pass
+
+                if muted:
+                    if datetime.now() > (datetime.now() - timedelta(minutes=1)):
+                        try:
+                            await client.leave_chat(chat_id)
+                        except:
+                            continue
+                        print(f"Dear Admins Assistant Leave Voice Chat Due To Mute.")
 
 
 asyncio.create_task(auto_leave())
@@ -86,5 +90,3 @@ async def auto_end():
                 except:
                     continue
 
-
-asyncio.create_task(auto_end())
